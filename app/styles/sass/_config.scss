@@ -1,0 +1,64 @@
+// USER VARIABLES SECTION
+
+$accent: orange;
+$fontsize: 20px;
+$textcolor: rgba(255, 255, 255, 0.64);
+$lineheight: 1.5;
+$userfont: Inter, sans-serif;
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 30px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+
+@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss';
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+
+
+
+// GENERAL CSS SETTINGS
+
+::placeholder {
+	color: #666
+}
+	
+
+// ::selection {
+// 	background-color: $accent;
+// 	color: #fff;
+// }
+
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid {
+		border-color: red
+	}
+		
+	&:required:valid {
+		border-color: green
+	}
+		
+}
+
+
+body {
+	font-family: $userfont;
+	font-size: $fontsize;
+	line-height: 1.5;
+	color: $textcolor;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	background-color: #000;
+	font-weight: 500;
+	@media screen and (max-width: 575px) {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+

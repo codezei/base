@@ -1,0 +1,182 @@
+.testimonials {
+    overflow: hidden;
+    &__nav {
+        position: relative;
+        text-align: center;
+        margin-bottom: 200px;
+        z-index: 3;
+
+    }
+    &__title {
+        margin-bottom: 0;
+    }
+    &-slider {
+        z-index: 2;
+        position: relative;
+        overflow: visible;
+        &:after {
+            content: "";
+            display: block;
+            width: 3855px;
+            height: 507px;
+            background-image: url("data:image/svg+xml,%3Csvg width='3854' height='508' viewBox='0 0 1440 508' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.6'%3E%3Cpath style='mix-blend-mode:screen' opacity='0.4' d='M720.973 502.081C1785.24 499.206 2647.79 385.647 2647.53 248.438C2647.26 111.23 1784.29 2.33023 720.026 5.20471C-344.241 8.0792 -1206.79 121.639 -1206.53 258.847C-1206.26 396.056 -343.294 504.955 720.973 502.081Z' fill='url(%23paint0_radial_1_2792)'/%3E%3Cpath style='mix-blend-mode:screen' opacity='0.6' d='M720.685 365.127C1560.61 362.858 2241.38 292.495 2241.22 207.966C2241.06 123.437 1560.03 56.7516 720.102 59.0201C-119.826 61.2887 -800.592 131.652 -800.43 216.181C-800.269 300.71 -119.243 367.396 720.685 365.127Z' fill='url(%23paint1_radial_1_2792)'/%3E%3Cpath style='mix-blend-mode:screen' opacity='0.15' d='M2156.04 185.787C2156.04 131.808 1513.32 88.0488 720.476 88.0488C-72.3662 88.0488 -715.092 131.808 -715.092 185.787C-715.092 239.766 -72.3662 283.525 720.476 283.525C1513.32 283.525 2156.04 239.766 2156.04 185.787Z' fill='url(%23paint2_radial_1_2792)'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint0_radial_1_2792' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(727.249 220.281) rotate(-0.15475) scale(1923.61 233.984)'%3E%3Cstop stop-color='%23527DEB'/%3E%3Cstop offset='0.0261102' stop-color='%23345FCD'/%3E%3Cstop offset='0.475153' stop-color='%23000023'/%3E%3C/radialGradient%3E%3CradialGradient id='paint1_radial_1_2792' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(725.731 191.517) rotate(-0.15475) scale(1518.13 144.149)'%3E%3Cstop stop-color='%2398C3FF'/%3E%3Cstop offset='0.0207233' stop-color='%23527DEB'/%3E%3Cstop offset='0.09' stop-color='%23527DEB'/%3E%3Cstop offset='0.17' stop-color='%23345FCD'/%3E%3Cstop offset='0.25' stop-color='%230C37A5'/%3E%3Cstop offset='0.33' stop-color='%23000F7D'/%3E%3Cstop offset='0.42' stop-color='%23000055'/%3E%3Cstop offset='0.52' stop-color='%2300002D'/%3E%3Cstop offset='0.64' stop-color='%23000037'/%3E%3Cstop offset='0.77' stop-color='%23000023'/%3E%3Cstop offset='1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_1_2792' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(742.285 186.018) scale(1435.41 97.7841)'%3E%3Cstop stop-color='white'/%3E%3Cstop offset='0.02' stop-color='%23EBEBEB'/%3E%3Cstop offset='0.09' stop-color='%23BABABA'/%3E%3Cstop offset='0.17' stop-color='%238E8E8E'/%3E%3Cstop offset='0.25' stop-color='%23676767'/%3E%3Cstop offset='0.33' stop-color='%23474747'/%3E%3Cstop offset='0.42' stop-color='%232D2D2D'/%3E%3Cstop offset='0.52' stop-color='%23191919'/%3E%3Cstop offset='0.64' stop-color='%230A0A0A'/%3E%3Cstop offset='0.77' stop-color='%23020202'/%3E%3Cstop offset='1'/%3E%3C/radialGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            top: -25%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+            pointer-events: none;
+        }
+    }
+    &-navigation {
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    &-button {
+        margin: 0 40px;
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        background: radial-gradient(63.94% 63.94% at 50% 0%, rgba(255, 255, 255, 0.014) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.1);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        &:hover {
+            background: radial-gradient(63.94% 63.94% at 50% 0%, rgba(255, 255, 255, 0.014) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.2);
+
+        }
+    }
+
+
+    @media screen and (max-width: 1199px) {
+        &__nav {
+            margin-bottom: 175px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &__nav {
+            margin-bottom: 150px;
+  
+        }
+        &-slider {
+            &:after {
+                height: 430px;
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &__nav {
+            margin-bottom: 100px;
+        }
+        &-slider {
+            &:after {
+                height: 450px;
+            }
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__nav {
+            margin-bottom: 50px;
+        }
+        &-slider {
+            &:after {
+                height: 300px;
+
+            }
+        }
+        &-navigation {
+            margin-top: 25px;
+        }
+        &-button {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+
+
+}
+
+.testimonial {
+    padding: 40px 54px 94px;
+    border-radius: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: radial-gradient(63.94% 63.94% at 50% 0%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.10);
+    position: relative;
+    overflow: hidden;
+    &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: -50px;
+        bottom: -100px;
+        background-image: url("data:image/svg+xml,%3Csvg width='708' height='651' viewBox='0 0 708 651' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_f_1_2756)'%3E%3Cpath d='M464.59 448.187C534.225 426.143 520.56 254.926 420.142 212.276C319.724 169.627 108.741 248.951 243.865 285.059C378.989 321.166 384.78 473.452 464.59 448.187Z' fill='%23CB5680' fill-opacity='0.25'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f_1_2756' x='-5.34058e-05' y='0' width='708' height='651' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='100' result='effect1_foregroundBlur_1_2756'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");;
+        background-size: contain;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        pointer-events: none;
+    }
+    
+    &__name {
+        font-size: 32px;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    &__stars {
+        border-radius: 40px;
+        border: 1px solid rgba(82, 125, 235, 0.30);
+        padding: 8px;
+        margin-bottom: 40px;
+        display: inline-block;
+        margin-bottom: 2rem;
+    }
+    &__star {
+        display: inline-block;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.825 20.7998L7.45 13.7748L2 9.0498L9.2 8.4248L12 1.7998L14.8 8.4248L22 9.0498L16.55 13.7748L18.175 20.7998L12 17.0748L5.825 20.7998Z' fill='%23527DEB'/%3E%3C/svg%3E%0A");
+            background-size: contain;
+        }
+        &.disable:after {
+            opacity: 0.5;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        padding: 3rem 3rem 4rem;
+        border-radius: 3rem;
+    }
+    @media screen and (max-width: 991px) {
+        padding: 2rem 2rem 3rem;
+        border-radius: 2rem;
+    }
+    @media screen and (max-width: 767px) {
+        padding: 1.5rem 1.5rem 2rem;
+        border-radius: 1.5rem;
+    }
+    @media screen and (max-width: 575px) {
+        padding: 1rem 1rem 1.5rem;
+        &__stars {
+            margin-bottom: 1.5rem;
+        }
+        &__name {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+}

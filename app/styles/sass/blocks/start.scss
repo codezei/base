@@ -1,0 +1,111 @@
+.start {
+    // &__subtitle {
+    //     margin-bottom: 0;
+    // }
+    &__nav {
+        text-align: center;
+        margin-bottom: 80px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        &:before {
+            content: "";
+            display: block;
+            width: 1265px;
+            height: 827px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            pointer-events: none;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(../images/dist/stars-bg.png);
+            background-position: center;
+            background-size: contain;
+            background-position: center;
+            pointer-events: none;
+            z-index: -1;
+
+        }
+
+    }
+    &__inner {
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        border-radius: 64px;
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        background: radial-gradient(63.94% 63.94% at 50% 0%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.10);
+        position: relative;
+
+    }
+    &__item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 137px 97px;
+        &--bright {
+            border-radius: 56px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            background: radial-gradient(100% 100% at 50% 100%, rgba(255, 255, 255, 0.00) 50%, rgba(255, 255, 255, 0.20) 100%), radial-gradient(100% 100% at 50% 100%, rgba(82, 125, 235, 0.00) 29.24%, #527DEB 100%), radial-gradient(63.94% 63.94% at 50% 0%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.10);
+        }
+        &-subtitle {
+            margin-bottom: 1rem;
+        }
+        &-title {
+            margin-bottom: 80px;
+            @media screen and (min-width: 1400px) {
+                font-size: 64px;
+            }
+        }
+        &-text {
+            margin-bottom: 40px;
+            flex-grow: 1;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        &__item {
+            padding: 100px 50px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        &__item {
+            padding: 75px 25px;
+        }
+        &__nav {
+            margin-bottom: 3rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &__inner {
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 100%;
+        }
+        &__nav {
+            margin-bottom: 2rem;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__inner {
+            border-radius: 3rem;
+        }
+        &__item {
+            padding: 3rem 1rem;
+            border-radius: 2rem;
+            &-title {
+                margin-bottom: 40px;
+            }
+        }
+        &__nav {
+            margin-bottom: 1.5rem;
+        }
+    }
+}

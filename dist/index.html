@@ -1,0 +1,559 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="logo header__logo">
+                <a href="./index.html">
+                    <img src="./images/dist/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="header__navigation">
+                <nav class="header__navigation-main">
+                    <!-- wp_nav_menu() - primary-menu -->
+                    <div class="menu-primary-menu-container">
+                        <ul class="menu primary-menu" id="primary-menu">
+                            <li class="menu-item current-menu-item">
+                                <a href="#actions">What we do?</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#testimonials">Testimoninals</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" target="_blank">Log In</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+                <nav class="header__navigation-secondary">
+                    <a href="" class="btn btn-dark header__navigation-btn" target="_blank">Get in Touch</a>
+                </nav>
+            </div>
+            <button type="button" class="header__navigation-btn-menu" data-toggle=".header__navigation">
+                <span class="header__navigation-btn-menu--inner">
+                    <span></span><span></span><span></span>
+                </span>
+            </button>
+
+
+
+        </div>
+    </div>
+</header>
+<section class="intro block">
+    <div class="container">
+        <div class="intro__nav">
+            <h6 class="subtitle">
+                Introducing the Future of Project Management:
+            </h6>
+            <h2 class="title intro__title">
+                AI-Driven S-Curve Analysis
+            </h2>
+            <p class="intro__description">
+                Unleashing the Potential of AI to Elevate Your Project's Performance and Success
+            </p>
+            <a href="" class="btn btn-light intro__btn" target="_blank">Get in Touch</a>
+        </div>
+
+        <div class="intro__dashboard dashboard">
+            <div class="dashboard__navbar">
+                <div class="dashboard__logo">
+                    <img src="./images/dist/logo.svg" alt="">
+                </div>
+                <div class="dashboard__menu">
+                    <div class="dashboard__menu-item active">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.21537 2.12886C1.37561 1.44049 1.91197 0.902312 2.59979 0.739743V0.739743C3.19587 0.598857 3.81647 0.597807 4.41303 0.736676V0.736676C5.1014 0.896917 5.63957 1.43328 5.80214 2.1211V2.1211C5.94303 2.71718 5.94408 3.33778 5.80521 3.93433V3.93433C5.64497 4.6227 5.10861 5.16088 4.42079 5.32345V5.32345C3.8247 5.46433 3.20411 5.46538 2.60755 5.32651V5.32651C1.91919 5.16627 1.38101 4.62991 1.21844 3.94209V3.94209C1.07755 3.34601 1.0765 2.72541 1.21537 2.12886V2.12886Z" stroke="white"/>
+                            <path d="M1.22874 10.0051C1.38898 9.31671 1.92534 8.77853 2.61316 8.61596V8.61596C3.20924 8.47508 3.82984 8.47403 4.4264 8.6129V8.6129C5.11476 8.77314 5.65294 9.3095 5.81551 9.99732V9.99732C5.95639 10.5934 5.95744 11.214 5.81858 11.8106V11.8106C5.65833 12.4989 5.12197 13.0371 4.43415 13.1997V13.1997C3.83807 13.3406 3.21747 13.3416 2.62092 13.2027V13.2027C1.93255 13.0425 1.39437 12.5061 1.2318 11.8183V11.8183C1.09092 11.2222 1.08987 10.6016 1.22874 10.0051V10.0051Z" stroke="white"/>
+                            <path d="M9.09153 2.11567C9.25177 1.42731 9.78813 0.889128 10.476 0.72656V0.72656C11.072 0.585673 11.6926 0.584623 12.2892 0.723492V0.723492C12.9776 0.883733 13.5157 1.42009 13.6783 2.10791V2.10791C13.8192 2.704 13.8202 3.32459 13.6814 3.92115V3.92115C13.5211 4.60952 12.9848 5.1477 12.2969 5.31026V5.31026C11.7009 5.45115 11.0803 5.4522 10.4837 5.31333V5.31333C9.79534 5.15309 9.25717 4.61673 9.0946 3.92891V3.92891C8.95371 3.33283 8.95266 2.71223 9.09153 2.11567V2.11567Z" stroke="white"/>
+                            <path d="M9.1049 9.99165C9.26514 9.30328 9.8015 8.7651 10.4893 8.60254V8.60254C11.0854 8.46165 11.706 8.4606 12.3026 8.59947V8.59947C12.9909 8.75971 13.5291 9.29607 13.6917 9.98389V9.98389C13.8326 10.58 13.8336 11.2006 13.6947 11.7971V11.7971C13.5345 12.4855 12.9981 13.0237 12.3103 13.1862V13.1862C11.7142 13.3271 11.0936 13.3282 10.4971 13.1893V13.1893C9.80871 13.0291 9.27053 12.4927 9.10796 11.8049V11.8049C8.96708 11.2088 8.96603 10.5882 9.1049 9.99165V9.99165Z" stroke="white"/>
+                            </svg>                            
+                    </div>
+                    <div class="dashboard__menu-item">
+                        <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.0198 12.6586C1.01705 11.0462 2.18636 9.67072 3.77823 9.41388L3.92162 9.39075C5.19631 9.18509 6.49554 9.18288 7.77092 9.38419L7.91439 9.40684C9.50712 9.65825 10.6811 11.0297 10.6839 12.6422C10.685 13.3391 10.121 13.9051 9.42407 13.9063L2.28389 13.9184C1.58694 13.9196 1.02099 13.3556 1.0198 12.6586Z" stroke="white"/>
+                            <path d="M8.65551 3.84081C8.65817 5.39752 7.39835 6.66164 5.84163 6.66429C4.28492 6.66694 3.0208 5.40713 3.01815 3.85041C3.0155 2.29369 4.27531 1.02958 5.83203 1.02692C7.38874 1.02427 8.65286 2.28409 8.65551 3.84081Z" stroke="white"/>
+                            <path d="M10.6739 6.65617C12.2306 6.65351 13.4904 5.3894 13.4878 3.83268C13.4851 2.27596 12.221 1.01615 10.6643 1.0188M12.6109 13.9009L14.2563 13.8981C14.9533 13.8969 15.5173 13.331 15.5161 12.634C15.5134 11.0216 14.3394 9.65012 12.7467 9.39871V9.39871C12.6512 9.38364 12.5545 9.37615 12.4578 9.37631C12.2003 9.37675 12.1203 9.37689 11.6781 9.37764" stroke="white" stroke-linecap="round"/>
+                            </svg>
+                            
+                    </div>
+                    <div class="dashboard__menu-item">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.26794 4.81211C1.72611 2.82571 3.27001 1.27031 5.25295 0.797407C6.68501 0.455878 8.17667 0.450341 9.61123 0.781228C11.5976 1.2394 13.153 2.7833 13.6259 4.76624C13.9675 6.1983 13.973 7.68996 13.6421 9.12451C13.1839 11.1109 11.64 12.6663 9.6571 13.1392C8.22504 13.4807 6.73338 13.4863 5.29883 13.1554C3.31243 12.6972 1.75703 11.1533 1.28412 9.17039C0.94259 7.73833 0.937053 6.24667 1.26794 4.81211Z" stroke="#FEFFFE"/>
+                            <path d="M5.35033 6.97621C5.35179 7.37086 5.02428 7.692 4.61881 7.69351C4.21334 7.69501 3.88345 7.37631 3.88199 6.98166C3.88052 6.58701 4.20803 6.26587 4.6135 6.26436C5.01897 6.26286 5.34886 6.58156 5.35033 6.97621Z" fill="white"/>
+                            <path d="M8.18902 6.96567C8.19048 7.36032 7.86297 7.68147 7.4575 7.68297C7.05203 7.68448 6.72214 7.36577 6.72068 6.97112C6.71921 6.57648 7.04673 6.25533 7.4522 6.25383C7.85767 6.25232 8.18755 6.57103 8.18902 6.96567Z" fill="white"/>
+                            <path d="M11.0277 6.95514C11.0292 7.34978 10.7017 7.67093 10.2962 7.67243C9.89072 7.67394 9.56084 7.35523 9.55937 6.96059C9.55791 6.56594 9.88542 6.24479 10.2909 6.24329C10.6964 6.24178 11.0262 6.56049 11.0277 6.95514Z" fill="white"/>
+                            </svg>
+                            
+                    </div>
+                    <div class="dashboard__menu-item">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.2167 9.70922V6.72479M9.69336 9.70922V7.4709M7.45503 8.96311V5.23257M1.25309 9.65813C0.915636 8.2195 0.915636 6.7223 1.25309 5.28367C1.72036 3.29163 3.27576 1.73623 5.2678 1.26896C6.70643 0.931505 8.20363 0.931505 9.64225 1.26896C11.6343 1.73623 13.1897 3.29163 13.657 5.28367C13.9944 6.7223 13.9944 8.2195 13.657 9.65812C13.1897 11.6502 11.6343 13.2056 9.64225 13.6728C8.20363 14.0103 6.70643 14.0103 5.2678 13.6728C3.27576 13.2056 1.72036 11.6502 1.25309 9.65813Z" stroke="white" stroke-linecap="round"/>
+                            </svg>
+                            
+                    </div>
+                    <div class="dashboard__menu-item">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.28903 9.47673L1.77479 9.35823L1.28903 9.47673ZM1.27028 5.20737L1.75706 5.32159L1.27028 5.20737ZM13.6199 5.15313L13.1342 5.27163L13.6199 5.15313ZM13.6387 9.42249L13.1519 9.30826L13.6387 9.42249ZM9.65871 13.3583L9.7729 13.8451L9.65871 13.3583ZM5.30339 13.3774L5.4133 12.8897L5.30339 13.3774ZM5.25022 1.27156L5.36441 1.75835L5.25022 1.27156ZM9.60555 1.25243L9.71545 0.764662L9.60555 1.25243ZM1.77479 9.35823C1.45128 8.03206 1.44521 6.65056 1.75706 5.32159L0.783502 5.09314C0.435719 6.57526 0.442486 8.11622 0.803274 9.59522L1.77479 9.35823ZM13.1342 5.27163C13.4577 6.5978 13.4637 7.9793 13.1519 9.30826L14.1254 9.53671C14.4732 8.0546 14.4665 6.51364 14.1057 5.03464L13.1342 5.27163ZM9.54453 12.8715C8.1873 13.1899 6.77327 13.1961 5.4133 12.8897L5.19349 13.8652C6.70108 14.2049 8.26835 14.198 9.7729 13.8451L9.54453 12.8715ZM5.36441 1.75835C6.72164 1.43999 8.13567 1.43378 9.49564 1.74021L9.71545 0.764662C8.20786 0.424974 6.64059 0.431858 5.13604 0.784775L5.36441 1.75835ZM5.4133 12.8897C3.60895 12.4831 2.20253 11.1117 1.77479 9.35823L0.803274 9.59522C1.32306 11.726 3.02717 13.3771 5.19349 13.8652L5.4133 12.8897ZM9.7729 13.8451C11.9348 13.338 13.6244 11.672 14.1254 9.53671L13.1519 9.30826C12.7396 11.0654 11.3452 12.4491 9.54453 12.8715L9.7729 13.8451ZM9.49564 1.74021C11.3 2.14676 12.7064 3.51816 13.1342 5.27163L14.1057 5.03464C13.5859 2.90383 11.8818 1.25277 9.71545 0.764662L9.49564 1.74021ZM5.13604 0.784775C2.97409 1.2919 1.28455 2.95785 0.783502 5.09314L1.75706 5.32159C2.16938 3.56444 3.5637 2.18074 5.36441 1.75835L5.13604 0.784775ZM9.46894 13.8599C9.46435 12.8156 9.46224 12.0838 9.53567 11.5304C9.60704 10.9925 9.74157 10.6984 9.95687 10.4854L9.25372 9.77441C8.8191 10.2042 8.63094 10.7463 8.54435 11.3989C8.45982 12.036 8.46449 12.8489 8.46895 13.8643L9.46894 13.8599ZM13.4046 8.97339C12.368 8.97794 11.5411 8.98055 10.8944 9.06868C10.2342 9.15863 9.68695 9.34598 9.25372 9.77441L9.95687 10.4854C10.1735 10.2712 10.4765 10.1349 11.0294 10.0595C11.5956 9.98236 12.3446 9.97805 13.409 9.97338L13.4046 8.97339Z" fill="white"/>
+                            <path d="M5.30341 5.30884L7.44567 5.29943M5.31281 7.4511L8.88326 7.43542" stroke="white" stroke-linecap="round"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+                <div class="dashboard__setting">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.40197 2.14711C7.28461 1.59081 6.7783 1.2038 6.2107 1.23654C6.06663 1.24485 5.92463 1.2748 5.78949 1.3254C5.25703 1.52475 4.95021 2.08331 5.06757 2.63961L5.23354 3.4263C4.93822 3.58229 4.66523 3.77045 4.41819 3.98524L3.74427 3.54614C3.26792 3.23577 2.63625 3.32013 2.25805 3.74463C2.16205 3.85238 2.08283 3.97397 2.02304 4.10531C1.7875 4.62277 1.96551 5.23469 2.44186 5.54507L3.11578 5.98416C3.01908 6.29692 2.95724 6.62264 2.93385 6.95581L2.14716 7.12178C1.59086 7.23915 1.20386 7.74546 1.23659 8.31307C1.2449 8.45714 1.27486 8.59913 1.32546 8.73428C1.52481 9.26673 2.08336 9.57355 2.63966 9.45618L3.42635 9.29021C3.58233 9.58554 3.77049 9.85852 3.98529 10.1056L3.54619 10.7795C3.23582 11.2558 3.32018 11.8875 3.74468 12.2657C3.85243 12.3617 3.97402 12.4409 4.10536 12.5007C4.62282 12.7363 5.23474 12.5582 5.54511 12.0819L5.9842 11.408C6.29696 11.5047 6.62269 11.5665 6.95586 11.5899L7.12183 12.3766C7.2392 12.9329 7.74551 13.3199 8.31312 13.2872C8.45718 13.2789 8.59918 13.2489 8.73433 13.1983C9.26678 12.999 9.5736 12.4404 9.45623 11.8841L9.29026 11.0974C9.58559 10.9414 9.85857 10.7533 10.1056 10.5385L10.7795 10.9776C11.2559 11.2879 11.8876 11.2036 12.2658 10.7791C12.3618 10.6713 12.441 10.5497 12.5008 10.4184C12.7363 9.90094 12.5583 9.28903 12.082 8.97866L11.408 8.53956C11.5047 8.2268 11.5666 7.90107 11.59 7.56789L12.3767 7.40192C12.9329 7.28456 13.32 6.77825 13.2872 6.21065C13.2789 6.06658 13.249 5.92458 13.1984 5.78943C12.999 5.25698 12.4404 4.95016 11.8841 5.06752L11.0975 5.23349C10.9415 4.93817 10.7533 4.66518 10.5385 4.41814L10.9776 3.74422C11.288 3.26787 11.2036 2.6362 10.7791 2.25799C10.6714 2.162 10.5498 2.08277 10.4185 2.02299C9.90099 1.78745 9.28907 1.96546 8.9787 2.44181L8.5396 3.11572C8.22684 3.01903 7.90111 2.95719 7.56794 2.9338L7.40197 2.14711Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.59618 7.61327C5.40209 6.6933 5.99054 5.79017 6.91051 5.59608C7.83049 5.40198 8.73362 5.99043 8.92771 6.9104C9.1218 7.83038 8.53335 8.73351 7.61338 8.9276C6.69341 9.12169 5.79028 8.53325 5.59618 7.61327Z" stroke="white"/>
+                        </svg>
+
+                </div>
+            </div>
+            <div class="dashboard__content">
+                <div class="dashboard__content-inner">
+                    <div class="dashboard__search">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.24557 10.3853L2.73235 10.2711L2.24557 10.3853ZM2.24557 6.14089L2.73235 6.25507L2.24557 6.14089ZM14.2806 6.14089L14.7674 6.02671L14.2806 6.14089ZM14.2806 10.3853L14.7674 10.4994L14.2806 10.3853ZM10.3853 14.2806L10.2711 13.7938L10.3853 14.2806ZM6.14089 14.2806L6.02671 14.7674L6.14089 14.2806ZM6.14089 2.24557L6.02671 1.75878L6.14089 2.24557ZM10.3853 2.24557L10.4994 1.75878L10.3853 2.24557ZM15.6464 16.3536C15.8417 16.5488 16.1583 16.5488 16.3536 16.3536C16.5488 16.1583 16.5488 15.8417 16.3536 15.6464L15.6464 16.3536ZM2.73235 10.2711C2.42255 8.95034 2.42255 7.57582 2.73235 6.25507L1.75878 6.0267C1.41374 7.49765 1.41374 9.0285 1.75878 10.4994L2.73235 10.2711ZM13.7938 6.25508C14.1036 7.57582 14.1036 8.95033 13.7938 10.2711L14.7674 10.4994C15.1124 9.02849 15.1124 7.49766 14.7674 6.02671L13.7938 6.25508ZM10.2711 13.7938C8.95033 14.1036 7.57582 14.1036 6.25508 13.7938L6.02671 14.7674C7.49766 15.1124 9.02849 15.1124 10.4994 14.7674L10.2711 13.7938ZM6.25507 2.73235C7.57582 2.42255 8.95033 2.42255 10.2711 2.73235L10.4994 1.75878C9.0285 1.41374 7.49766 1.41374 6.02671 1.75878L6.25507 2.73235ZM6.25508 13.7938C4.50715 13.3838 3.14236 12.019 2.73235 10.2711L1.75878 10.4994C2.25552 12.6171 3.90903 14.2706 6.02671 14.7674L6.25508 13.7938ZM10.4994 14.7674C12.6171 14.2706 14.2706 12.6171 14.7674 10.4994L13.7938 10.2711C13.3838 12.019 12.019 13.3838 10.2711 13.7938L10.4994 14.7674ZM10.2711 2.73235C12.019 3.14236 13.3838 4.50715 13.7938 6.25508L14.7674 6.02671C14.2706 3.90902 12.6171 2.25552 10.4994 1.75878L10.2711 2.73235ZM6.02671 1.75878C3.90902 2.25552 2.25552 3.90902 1.75878 6.0267L2.73235 6.25507C3.14236 4.50715 4.50715 3.14236 6.25507 2.73235L6.02671 1.75878ZM12.796 13.5031L15.6464 16.3536L16.3536 15.6464L13.5031 12.796L12.796 13.5031Z" fill="#707070"/>
+                            </svg>
+                          Search  
+                    </div>
+                    <div class="dashboard__block">
+                        <div class="dashboard__block-title">
+                            AI-Driven S-Curve Analysis
+                        </div>
+                        <img src="./images/dist/graph.png" alt="" class="dashboard__block-img">
+                    </div>
+                    <div class="dashboard__row">
+                        <div class="dashboard__item ">
+                            <div class="dashboard__block">
+                                <div class="dashboard__item-header">
+                                    <div class="dashboard__item-name">Total Members</div>
+                                    <div class="dashboard__item-percent">51%</div>
+                                </div>
+                                <div class="dashboard__item-value">9.6k</div>
+                            </div>
+
+                        </div>
+                        <div class="dashboard__item ">
+                            <div class="dashboard__block">
+                                <div class="dashboard__item-header">
+                                    <div class="dashboard__item-name">Visitor this month</div>
+                                    <div class="dashboard__item-percent">17%</div>
+                                </div>
+                                <div class="dashboard__item-value">9.270</div>
+                            </div>
+
+                        </div>
+                        <div class="dashboard__item ">
+                            <div class="dashboard__block">
+                                <div class="dashboard__item-header">
+                                    <div class="dashboard__item-name">Profit this month</div>
+                                    <div class="dashboard__item-percent">17%</div>
+                                </div>
+                                <div class="dashboard__item-value">487$</div>
+                            </div>
+
+                        </div>
+                        <div class="dashboard__item ">
+                            <div class="dashboard__block">
+                                <div class="dashboard__item-header">
+                                    <div class="dashboard__item-name">Toal Employess</div>
+                                    <div class="dashboard__item-percent">34%</div>
+                                </div>
+                                <div class="dashboard__item-value">365</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard__content-sidebar">
+                    <div class="dashboard__user">
+                        <div class="dashboard__user-notify">
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.40849 6.10833L2.89277 6.23273L2.89277 6.23273L2.40849 6.10833ZM5.99018 2.25308L5.82975 1.77952L5.99018 2.25308ZM2.37099 6.25433L1.88671 6.12993L1.88671 6.12993L2.37099 6.25433ZM2.24802 9.83456L2.7397 9.74371L2.24802 9.83456ZM2.26933 9.94988L1.77766 10.0407L1.77766 10.0407L2.26933 9.94988ZM2.73903 13.8643L2.83238 13.3731L2.83238 13.3731L2.73903 13.8643ZM3.0631 13.9259L3.15645 13.4347L3.15645 13.4347L3.0631 13.9259ZM12.4619 13.8022L12.3557 13.3136L12.4619 13.8022ZM12.7842 13.7321L12.8905 14.2207L12.7842 13.7321ZM13.1543 9.78446L13.6482 9.86235L13.1543 9.78446ZM13.1736 9.6616L12.6797 9.58371L13.1736 9.6616ZM12.9739 6.13958L12.492 6.27282L12.492 6.27282L12.9739 6.13958ZM12.9163 5.93113L13.3982 5.79789L13.3982 5.79789L12.9163 5.93113ZM9.33902 2.21442L9.48956 1.73762L9.33902 2.21442ZM13.2994 10.0702L13.061 10.5097L13.2994 10.0702ZM2.146 10.2068L1.9008 9.77104L2.146 10.2068ZM8.0943 1.08022C8.09067 0.804097 7.86388 0.583205 7.58776 0.586839C7.31164 0.590473 7.09075 0.817257 7.09439 1.09338L8.0943 1.08022ZM7.10601 1.97679C7.10965 2.25291 7.33643 2.4738 7.61255 2.47016C7.88867 2.46653 8.10956 2.23975 8.10593 1.96363L7.10601 1.97679ZM5.13707 14.2252L5.18638 13.7276L4.58733 13.6682L4.63891 14.268L5.13707 14.2252ZM10.3965 14.1559L10.8957 14.1856L10.9314 13.5847L10.3341 13.6598L10.3965 14.1559ZM10.3234 14.6615L10.8104 14.7745L10.8104 14.7745L10.3234 14.6615ZM10.2552 14.9556L9.7681 14.8426L9.7681 14.8426L10.2552 14.9556ZM8.42056 16.8321L8.54327 17.3168L8.54327 17.3168L8.42056 16.8321ZM7.18279 16.8484L7.07287 17.3361L7.07287 17.3361L7.18279 16.8484ZM5.29943 15.0208L4.8155 15.1465L5.29943 15.0208ZM5.2235 14.7286L5.70742 14.6029L5.2235 14.7286ZM2.89277 6.23273C3.31413 4.59237 4.55108 3.2685 6.1506 2.72665L5.82975 1.77952C3.91264 2.42896 2.43027 4.01385 1.92421 5.98394L2.89277 6.23273ZM2.85527 6.37872L2.89277 6.23273L1.92421 5.98394L1.88671 6.12993L2.85527 6.37872ZM2.7397 9.74371C2.53333 8.62697 2.57279 7.47841 2.85527 6.37872L1.88671 6.12993C1.56807 7.37037 1.52359 8.66584 1.75635 9.92542L2.7397 9.74371ZM2.76101 9.85902L2.7397 9.74371L1.75635 9.92542L1.77766 10.0407L2.76101 9.85902ZM1.64183 11.9469C1.63447 11.3878 1.93772 10.8977 2.3912 10.6425L1.9008 9.77104C1.13972 10.1993 0.629575 11.0222 0.641918 11.9601L1.64183 11.9469ZM2.83238 13.3731C2.15053 13.2435 1.65106 12.6483 1.64183 11.9469L0.641918 11.9601C0.657363 13.1336 1.49371 14.1366 2.64567 14.3555L2.83238 13.3731ZM3.15645 13.4347L2.83238 13.3731L2.64567 14.3555L2.96974 14.4171L3.15645 13.4347ZM12.3557 13.3136C9.32827 13.972 6.20012 14.0131 3.15645 13.4347L2.96974 14.4171C6.14548 15.0206 9.40941 14.9777 12.5682 14.2908L12.3557 13.3136ZM12.678 13.2435L12.3557 13.3136L12.5682 14.2908L12.8905 14.2207L12.678 13.2435ZM13.8306 11.7865C13.8398 12.4879 13.3562 13.096 12.678 13.2435L12.8905 14.2207C14.0363 13.9715 14.846 12.9468 14.8305 11.7733L13.8306 11.7865ZM13.061 10.5097C13.5136 10.7552 13.8233 11.233 13.8306 11.7865L14.8305 11.7733C14.8183 10.845 14.2972 10.0426 13.5378 9.63068L13.061 10.5097ZM12.6797 9.58371L12.6604 9.70658L13.6482 9.86235L13.6675 9.73949L12.6797 9.58371ZM12.492 6.27282C12.7899 7.35021 12.8539 8.47933 12.6797 9.58371L13.6675 9.73949C13.8639 8.49428 13.7917 7.22118 13.4558 6.00634L12.492 6.27282ZM12.4344 6.06438L12.492 6.27282L13.4558 6.00634L13.3982 5.79789L12.4344 6.06438ZM9.18848 2.69122C10.7682 3.18999 11.9905 4.45908 12.4344 6.06438L13.3982 5.79789C12.8645 3.86766 11.3939 2.33888 9.48956 1.73762L9.18848 2.69122ZM6.1506 2.72665C7.13171 2.39429 8.20292 2.38005 9.18848 2.69122L9.48956 1.73762C8.29901 1.36173 7.00995 1.37971 5.82975 1.77952L6.1506 2.72665ZM13.5378 9.63068C13.6092 9.66942 13.665 9.75576 13.6482 9.86235L12.6604 9.70657C12.607 10.0447 12.7842 10.3596 13.061 10.5097L13.5378 9.63068ZM1.77766 10.0407C1.75566 9.92172 1.81573 9.81891 1.9008 9.77104L2.3912 10.6425C2.65772 10.4926 2.82097 10.1835 2.76101 9.85902L1.77766 10.0407ZM7.09439 1.09338L7.10601 1.97679L8.10593 1.96363L8.0943 1.08022L7.09439 1.09338ZM5.08775 14.7227C6.8752 14.8999 8.67677 14.8762 10.4589 14.652L10.3341 13.6598C8.62611 13.8747 6.89948 13.8974 5.18638 13.7276L5.08775 14.7227ZM10.8104 14.7745C10.8554 14.5808 10.8839 14.3838 10.8957 14.1856L9.89742 14.1262C9.88896 14.2684 9.86853 14.4096 9.83632 14.5485L10.8104 14.7745ZM10.7422 15.0685L10.8104 14.7745L9.83632 14.5485L9.7681 14.8426L10.7422 15.0685ZM8.54327 17.3168C9.63865 17.0395 10.4864 16.1712 10.7422 15.0685L9.7681 14.8426C9.59646 15.5825 9.02837 16.1624 8.29784 16.3474L8.54327 17.3168ZM7.07287 17.3361C7.55776 17.4454 8.06143 17.4388 8.54327 17.3168L8.29784 16.3474C7.96845 16.4308 7.62418 16.4353 7.29271 16.3606L7.07287 17.3361ZM4.8155 15.1465C5.10022 16.2421 5.97058 17.0877 7.07287 17.3361L7.29271 16.3606C6.55756 16.1949 5.97441 15.6301 5.78335 14.895L4.8155 15.1465ZM4.73958 14.8544L4.8155 15.1465L5.78335 14.895L5.70742 14.6029L4.73958 14.8544ZM4.63891 14.268C4.65592 14.4658 4.68957 14.662 4.73958 14.8544L5.70742 14.6029C5.67156 14.4649 5.64743 14.3242 5.63523 14.1823L4.63891 14.268Z" fill="#707070"/>
+                                <circle cx="12.5" cy="4.5" r="3.5" fill="#EB526E"/>
+                                </svg>
+                                
+                        </div>
+                        <div class="dashboard__user-info">
+                            <img src="./images/dist/ava.png" alt class="dashboard__user-ava"></img>
+                            <div>
+                                <div class="dashboard__user-name">
+                                    Fachry
+                                </div>
+                                <div class="dashboard__user-message">
+                                    What Do you Think?
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="dashboard__user-icon">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.3974 6.2492C1.99172 3.80493 3.9194 1.9083 6.373 1.35373C8.14496 0.953236 9.98557 0.968179 11.7508 1.39739C14.1951 1.99172 16.0917 3.91939 16.6463 6.373C17.0468 8.14496 17.0318 9.98557 16.6026 11.7508C16.0083 14.1951 14.0806 16.0917 11.627 16.6463C9.85504 17.0468 8.01444 17.0318 6.24921 16.6026C3.80493 16.0083 1.9083 14.0806 1.35374 11.627C0.953238 9.85504 0.968181 8.01443 1.3974 6.2492Z" stroke="#707070"/>
+                                <path d="M11.2116 8.13615L8.98936 10.3226L6.80293 8.10036" stroke="#707070" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </div>
+                    </div>
+                    <div class="dashboard__pro dashboard__block">
+                        <div class="dashboard__pro-title">
+                            Spend by Pro
+                        </div>
+                        <img src="./images/dist/pro.png" alt="" class="dashboard__pro-img">
+                        <div class="dashboard__pro-dots">
+                            <div class="dashboard__pro-dot"></div>
+                            <div class="dashboard__pro-dot"></div>
+                            <div class="dashboard__pro-dot"></div>
+                        </div>
+                    </div>
+                    <div class="dashboard__others">
+                        <div class="dashboard__other">
+                            <img src="./images/dist/other.png" alt="">
+                        </div>
+                        <div class="dashboard__other">
+                            <img src="./images/dist/other.png" alt="">
+                        </div>
+                        <div class="dashboard__other">
+                            <img src="./images/dist/other.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="actions block" id="actions">
+    <div class="container">
+        <div class="actions__nav">
+            <h5 class="subtitle actions__subtitle">
+                What we do?
+            </h5>
+            <h2 class="title actions__title">
+                What we do?
+            </h2>
+        </div>
+        <div class="actions__list">
+            <div class="actions__item action action--bright">
+               
+                    <div class="row action__row">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="action__title title">
+                                Assessment
+                            </h3>
+                            <p class="action__text">
+                                Our AI-powered software simplifies project development by effortlessly generating S-Curves from data across Engineering, Procurement, Construction, and Project Management phases.
+                                <br>
+                                <br>
+                                It enables you to quickly identify where each phase impacts progress, assign responsibilities, and make informed decisions for seamless project execution.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-6">
+                            <img src="./images/dist/action-img-1.png" alt="" class="action__img">
+                        </div>
+                    </div>
+                
+
+            </div>
+            <div class="actions__item action">
+                
+                    <div class="row action__row">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="action__title title">
+                                Analysis By Phase
+                            </h3>
+                            <p class="action__text">
+                                Our AI-powered solution effortlessly takes data from your project's distinct phases – Engineering, Procurement, Construction – to generate insightful S-Curves.                                
+                                <br>
+                                <br>
+                                Instantly pinpoint where each phase impacts progress, identify responsibles, and make informed decisions that keep your project on course.                            
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-6">
+                            <img src="./images/dist/action-img-2.png" alt="" class="action__img">
+                        </div>
+                    </div>
+             
+
+            </div>
+            <div class="actions__item action action--bright">
+               
+                    <div class="row action__row">
+                        <div class="col-md-6 col-xl-5">
+                            <h3 class="action__title title">
+                                In-Depth Reports
+                            </h3>
+                            <p class="action__text">
+                                Analyzing every phase of your project against the baseline, we pinpoint exactly which activities are delayed, providing you with detailed insights that enable targeted action plans.                                
+                                <br>
+                                <br>
+                                Our robust reporting empowers you to swiftly recover setbacks and keeps your project seamlessly on track. Embrace proactive control, align with your goals, and ensure success with our AI-driven analysis.                            
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-6">
+                            <img src="./images/dist/action-img-1.png" alt="" class="action__img">
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="testimonials block" id="testimonials">
+    <div class="container">
+        <div class="testimonials__nav">
+            <h5 class="subtitle testimonials__subtitle">
+                Testimoninals
+            </h5>
+            <h2 class="title testimonials__title">
+                What They Say About&nbsp;Us
+            </h2>
+        </div>
+            
+        <div class="swiper testimonials-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials-slide">
+                    <div class="testimonial">
+                        <div class="testimonial__stars">
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                            <span class="testimonial__star"></span>
+                        </div>
+                        <h4 class="testimonial__name">
+                            Alex
+                        </h4>
+                        <p class="testimonial__text">
+                            This web app is a game-changer! Its user-friendly interface and powerful features have streamlined our workflow. A must-have tool!                                                
+                            <br><br>
+                            I'm impressed by the efficiency of this web app. It's boosted our productivity significantly. The intuitive design makes it easy to use.
+                        </p>
+                    </div>
+                  </div>
+              <div class="swiper-slide testimonials-slide">
+                <div class="testimonial">
+                    <div class="testimonial__stars">
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star disable"></span>
+                    </div>
+                    <h4 class="testimonial__name">
+                        Wakkos
+                    </h4>
+                    <p class="testimonial__text">
+                        This web app transformed the way I manage tasks! Its intuitive design and seamless features have skyrocketed my productivity. A must-have tool.
+                        <br><br>
+                        I'm blown away by the web app's versatility. From project planning to data analysis, it's a game-changer. It's like having a whole toolkit in one place.
+                    </p>
+                </div>
+              </div>
+              <div class="swiper-slide testimonials-slide">
+                <div class="testimonial">
+                    <div class="testimonial__stars">
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                    </div>
+                    <h4 class="testimonial__name">
+                        Shiva
+                    </h4>
+                    <p class="testimonial__text">
+                        As a small business owner, this app has been a lifesaver. It streamlined my operations and customer management. My business has never been more organized!                        
+                        <br><br>
+                        I'm not tech-savvy, but this app made everything easy. I use it for personal goals and team collaborations. It's like my digital assistant!
+                  
+                    </p>
+                </div>
+              </div>
+              <div class="swiper-slide testimonials-slide">
+                <div class="testimonial">
+                    <div class="testimonial__stars">
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                        <span class="testimonial__star"></span>
+                    </div>
+                    <h4 class="testimonial__name">
+                        Subash
+                    </h4>
+                    <p class="testimonial__text">
+                        As a designer, visual inspiration is crucial. This app's image library is a goldmine. It's like Pinterest specifically tailored for creatives.
+                                                
+                        <br><br>
+                        Managing expenses is a breeze now. This app's expense tracker helped me save and budget effectively. Financial management has never been this stress-free!
+
+                    </p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="testimonials-navigation">
+                <div class="swiper-button-prev testimonials-button testimonials-button-prev">
+                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 1L1 9M1 9L9 17M1 9L9 9L17 9" stroke="#527DEB"/>
+                        </svg>
+                        
+                </div>
+                <div class="swiper-button-next testimonials-button testimonials-button-next">
+                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 17L16 9M16 9L8 1M16 9L8 9L1.04907e-06 9" stroke="#527DEB"/>
+                        </svg>
+                        
+                </div>
+
+            </div>
+
+          </div>
+    </div>
+</section>
+<section class="start block" id="start">
+    <div class="container">
+        <div class="start__nav">
+            <h5 class="subtitle start__subtitle">
+                Get Started!
+            </h5>
+            <h2 class="title start__subtitle">
+                Start Your Journey With&nbsp;Us
+            </h2>
+        </div>
+        <div class="start__inner">
+            <div class="start__item">
+                <h5 class="start__item-subtitle subtitle">
+                    Start!
+                </h5>
+                <h3 class="start__item-title">
+                    Log In
+                </h3>
+                <p class="start__item-text">
+                    Good to See you again!
+                </p>
+                <a href="" class="btn btn-light start__item-btn btn-wide" target="_blank">
+                    Log In
+                </a>
+            </div>
+            <div class="start__item start__item--bright">
+                <h5 class="start__item-subtitle subtitle subtitle--rocket">
+                    Start!
+                </h5>
+                <h3 class="start__item-title">
+                    Get Started!
+                </h3>
+                <p class="start__item-text">
+                    Enter your personal details and start journey with us....
+                </p>
+                <a href="" class="btn btn-light start__item-btn btn-wide" target="_blank">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="row">
+                <div class="col-xl-6 col-lg-3 col-12">
+                    <div class="logo footer__logo">
+                        <a href="./index.html">
+                            <img src="./images/dist/logo-white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__copyright">
+                        © 2023 Aria Systems. All rights reserved.
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6 footer__navigation">
+                    <h5 class="footer__navigation-title">
+                        Map
+                    </h5>
+                    <div class="menu-quick-menu-container">
+                        <ul class="menu quick-menu" id="map-menu">
+                            <li class="menu-item">
+                                <a href="#actions">What we do?</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#testimonials">Testimoninals</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <h5 class="footer__navigation-title">
+                        Social
+                    </h5>
+                    <div class="menu-quick-menu-container">
+                        <ul class="menu quick-menu" id="social-menu">
+                            <li class="menu-item">
+                                <a href="" target="_blank">Facebook</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" target="_blank">Linkedin</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <h5 class="footer__navigation-title">
+                        Terms
+                    </h5>
+                    <div class="menu-quick-menu-container">
+                        <ul class="menu quick-menu" id="terms-menu">
+                            <li class="menu-item">
+                                <a href="" target="_blank">Privacy</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" target="_blank">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="row">
+                <div class="col-6">
+                    <a href="" class="btn btn-dark footer__btn" target="_blank">Log In</a>
+                </div>
+                <div class="col-6">
+                    <a href="" class="btn btn-dark footer__btn" target="_blank">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>

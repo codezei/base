@@ -1,0 +1,54 @@
+.footer {
+    font-size: 14px;
+    &__logo {
+        margin-bottom: 2rem;
+    }
+    &__top {
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        padding-top: 40px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+    &__bottom {
+        padding: 40px 0 56px;
+    }
+    &__btn {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    &__navigation {
+        &-title {
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+    }
+    &__copyright {
+        margin-bottom: 2rem;
+    }
+    @media screen and (max-width: 767px) {
+        &__navigation {
+            &-title {
+                margin-bottom: 1rem;
+            }
+        }
+        &__bottom {
+            padding: 2rem 0;
+        }
+        &__top {
+            padding: 2rem 0;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__navigation {
+            margin-bottom: 1rem;
+        }
+        &__bottom {
+            padding: 1.5rem 0;
+        }
+        &__top {
+            padding: 1.5rem 0;
+        }
+    }
+}
